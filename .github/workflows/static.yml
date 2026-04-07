@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-pt">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Limpa Feirão 2026</title>
+<script src="https://cdn.tailwindcss.com"></script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700;900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #fff;
+    margin: 0;
+    color: #222;
+}
+
+.primary { color: #ff2d8f; }
+
+.btn {
+    background: #ff2d8f;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background: #e0267d;
+}
+
+.card {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+.badge {
+    background: #ffe6f1;
+    color: #ff2d8f;
+    border-radius: 999px;
+    font-size: 12px;
+    padding: 4px 10px;
+}
+</style>
+</head>
+
+<body>
+
+<!-- HEADER SIMPLES -->
+<header class="text-center p-6">
+    <h1 class="text-2xl font-black">Limpa <span class="primary">Feirão</span></h1>
+</header>
+
+<!-- HERO CONVERSÃO -->
+<section class="text-center px-6 py-6 max-w-2xl mx-auto">
+
+    <span class="badge">OFERTA DO FEIRÃO 2026</span>
+
+    <h2 class="text-3xl md:text-5xl font-black mt-4 leading-tight">
+        <span class="primary"></span>
+    </h2>
+
+    <p class="text-gray-600 mt-4 text-lg">
+        Acesse o motor de renegociação automatizada e obtenha sua análise através do protocolo oficial 2026.
+    </p>
+
+    <!-- CTA PRINCIPAL -->
+    <a href="/feirao/inicio/" class="btn block mt-6 py-4 text-lg">
+        CONSULTAR AGORA
+    </a>
+
+    <p class="text-xs text-gray-400 mt-2">Sem custo • Resultado imediato</p>
+
+</section>
+
+<!-- PROVAS / BENEFÍCIOS -->
+<section class="px-6 mt-10 max-w-4xl mx-auto grid md:grid-cols-3 gap-6">
+
+    <div class="card p-6 text-center">
+        <p class="text-3xl font-bold primary">+50MIL</p>
+        <p class="text-gray-600">Pessoas já consultaram</p>
+    </div>
+
+    <div class="card p-6 text-center">
+        <p class="text-3xl font-bold primary">100%</p>
+        <p class="text-gray-600">Online e seguro</p>
+    </div>
+
+    </a>
+</section>
+
+<!-- URGÊNCIA -->
+<section class="text-center mt-10 px-6">
+    <p class="text-sm text-red-500 font-semibold">
+        
+    </p>
+</section>
+
+<!-- FOOTER -->
+<footer class="text-center p-6 text-gray-400 text-sm mt-10">
+    © 2026 Limpa Feirão
+</footer>
+
+</body>
+</html>
